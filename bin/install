@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var Validate = require('git-validate');
+
+Validate.installScript('test', 'gulp validate');
+Validate.installHooks('pre-commit');
+Validate.configureHook('pre-commit', ['test']);
