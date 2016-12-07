@@ -3,5 +3,5 @@
 var Validate = require('git-validate');
 
 Validate.installScript('test', 'gulp validate');
-Validate.installHooks('pre-commit');
-Validate.configureHook('pre-commit', ['test']);
+Validate.installHooks('pre-push');
+Validate.configureHook('pre-push', ['test']);
