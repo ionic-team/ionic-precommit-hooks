@@ -2,7 +2,7 @@
   "author": "Ionic Team <hi@ionic.io> (http://ionic.io)",
   "name": "@ionic/commit-hooks",
   "description": "A useful pre-commit hook for ionic 2 source code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "homepage": "https://github.com/driftyco/ionic-precommit-hooks",
   "repository": {
